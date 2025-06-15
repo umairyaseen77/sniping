@@ -1,0 +1,63 @@
+query searchJobCardsByLocation(
+  $location: String!
+  $radius: Int!
+  $sort: String
+  $filters: JobSearchFiltersInput
+  $offset: Int
+  $limit: Int
+) {
+  searchJobCardsByLocation(
+    location: $location
+    radius: $radius
+    sort: $sort
+    filters: $filters
+    offset: $offset
+    limit: $limit
+  ) {
+    totalCount
+    nextOffset
+    jobs {
+      id
+      title
+      jobType
+      employmentType
+      city
+      state
+      country
+      postalCode
+      address
+      description
+      basicQualifications
+      preferredQualifications
+      schedule {
+        shifts {
+          startTime
+          endTime
+          days
+        }
+      }
+      compensation {
+        pay {
+          min
+          max
+          currency
+          type
+        }
+      }
+      postedDate
+      closingDate
+      requisitionId
+      businessTitle
+      company
+      department
+      jobCategory
+      jobFamily
+      isRemote
+      benefits
+      tags
+      applicationUrl
+      distance
+      matchScore
+    }
+  }
+} 
