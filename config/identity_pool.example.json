@@ -1,0 +1,48 @@
+{
+  "identities": [
+    {
+      "id": "identity-1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "locale": "en-US",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "identity-2",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "locale": "en-GB",
+      "timezone": "Europe/London"
+    },
+    {
+      "id": "identity-3",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "locale": "en-US",
+      "timezone": "America/Los_Angeles"
+    }
+  ],
+  "proxies": [
+    {
+      "id": "proxy-1",
+      "url": "http://username:password@proxy1.example.com:8080",
+      "country": "US",
+      "region": "NY"
+    },
+    {
+      "id": "proxy-2",
+      "url": "http://username:password@proxy2.example.com:8080",
+      "country": "UK",
+      "region": "London"
+    }
+  ]
+} 
