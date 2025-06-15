@@ -1,3 +1,7 @@
+# sniping
+
+This project is licensed under the [MIT License](LICENSE).
+=======
 # Sniping
 
 This repository describes an experimental automation pipeline aimed at quickly securing limited-availability resources. It provides a basic framework for monitoring a target and automatically acting once predefined conditions are met. The project is currently **experimental** and should not be considered production-ready.
